@@ -1,0 +1,21 @@
+{
+    "name": "mattyg/array-transformer",
+    "type": "library",
+    "description": "Build a series of transformations to apply to multiple arrays.",
+    "keywords": ["array", "transform", "transformation"],
+    "homepage": "https://github.com/djmattyg007/array-transformer",
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "Matthew Gamble"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MattyG\\ArrayTransformer\\": "src/"
+        }
+    }
+}
